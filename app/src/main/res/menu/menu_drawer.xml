@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/frame"
+        android:iconTint="#C54FFD"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_popular"
+        android:icon="@drawable/frame__1_"
+        android:iconTint="#C54FFD"
+        android:title="Popular" />
+    <item
+        android:id="@+id/menu_random"
+        android:icon="@drawable/frame__2_"
+        android:iconTint="#C54FFD"
+        android:title="Random" />
+    <item
+        android:id="@+id/menu_liked"
+        android:icon="@drawable/frame__3_"
+        android:iconTint="#C54FFD"
+        android:title="Liked" />
+    <item
+        android:id="@+id/menu_history"
+        android:icon="@drawable/frame__4_"
+        android:iconTint="#C54FFD"
+        android:title="History" />
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/frame__5_"
+        android:iconTint="#C54FFD"
+        android:title="About" />
+
+    <item
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:enabled="false"
+        android:title="" />
+    <item
+        android:id="@+id/item_custom"
+        android:title="Photo source:" />
+
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/allFragment"
+        android:icon="@drawable/frame"
+        android:title="Home" />
+    <item
+        android:id="@+id/natureFragment"
+        android:icon="@drawable/frame__1_"
+        android:title="Popular" />
+    <item
+        android:id="@+id/randomFragment"
+        android:icon="@drawable/frame__2_"
+        android:title="Random" />
+    <item
+        android:id="@+id/likeFragment"
+        android:icon="@drawable/frame__3_"
+        android:title="Liked" />
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_115sdp"
+        android:contentDescription="No Internet Icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dialogimg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:text="Internet aloqasi borligiga ishonch hosil qiling!"
+        android:textColor="#010202"
+        android:textSize="@dimen/_10ssp" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:backgroundTint="#152C3F"
+        android:gravity="center"
+        android:text="Refresh"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:backgroundTint="#BF0303"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@android:color/white" />
+</LinearLayout>
